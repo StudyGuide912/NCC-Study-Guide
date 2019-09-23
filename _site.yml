@@ -1,0 +1,23 @@
+output_dir: "."
+navbar:
+  title: "Jancy's Study Guide"
+  left:
+    - text: "Psychology"
+      href: psychology.html
+    - text: "Writing"
+      href: writing.html
+    - text: "NCC 101"
+      href: ncc101.html
+    - text: "Math"
+      href: math.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:davidabrocker@gmail.com
+    - icon: fa-phone fa-lg
+      href: 516-373-5443
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    css: 'styles.css'
+    
